@@ -3,9 +3,9 @@ import json
 
 class ApiClient:
 
-    def __init__(self):
+    def __init__(self, api_key):
         self.base_url = 'https://developer.cumtd.com/api/v2.2/json/'
-        self.api_key = 'ee64af184d3d47d2b3da0a793d9c145b'
+        self.api_key = api_key
         self.api_key_url = '?key=' + self.api_key
 
     def get_calendar_dates_by_date(self, date):
