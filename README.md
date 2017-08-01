@@ -30,7 +30,9 @@ git clone https://github.com/rthotakura97/cumtd-python.git
 
 ## Usage
 
-To use the CUMTD API, you need to first acquire an instant API key at https://developer.cumtd.com/
+**This API attempts to present a clean interface to the CUMTD API, but in order to use it to its full potential, you must familiarize yourself with the official CUMTD API [documentation](https://developer.cumtd.com/).**
+
+To use the CUMTD API, you need to first acquire an instant API key [here](https://developer.cumtd.com/).
 
 With this API Key, declare an ```api``` object:
 ```
@@ -39,9 +41,10 @@ api = cumtd.ApiClient(<api-key>)
 
 Now you can make calls using ```api``` to retrieve the necessary data.
 
-## Functions
+## Methods
 
-Take a look at  https://developer.cumtd.com/ for more in-depth details about calls to the API.
+
+
 
 
 
