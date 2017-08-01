@@ -3,6 +3,8 @@ An unofficial Python client for the CUMTD REST API. Skip making HTTP requests to
 
 ## Installation
 
+Package will be available on ```pip``` soon.
+
 * Requirements
   * Python "json" library
   * Python "requests" library
@@ -15,7 +17,5 @@ git clone https://github.com/rthotakura97/cumtd-python.git
 
 2) In your project, add ```import cumtd```
 
-That's it for installation.
 
-Package will be available on ```pip``` soon.
 
