@@ -1,9 +1,7 @@
 # cumtd-python
 An unofficial Python client for the [CUMTD REST API](https://developer.cumtd.com/). Skip making HTTP requests to the website endpoints and download this easy-to-use package instead!
 
-**This project and I are in no way associated with CUMTD**
-
-![alt text](https://www.cumtd.com/the-inside-lane/wp-content/uploads/2015/09/green-and-wright-0323.jpg)
+**Disclaimer: This project and I have no association with CUMTD and its partners.**
 
 ## Benefits
  * A simple to use Python wrapper for public CUMTD API endpoints.
