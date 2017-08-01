@@ -1,2 +1,2 @@
-Python "requests" library
-Python "json" library
+requests
+json
