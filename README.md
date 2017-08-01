@@ -59,13 +59,13 @@ Now you can make calls using ```api``` to retrieve the necessary data.
 
 [get_shape](https://developer.cumtd.com/documentation/v2.2/method/getshape/)
 
-[get_shape_between_stops](https://developer.cumtd.com/documentation/v2.2/method/getshapebetweenstops/
+[get_shape_between_stops](https://developer.cumtd.com/documentation/v2.2/method/getshapebetweenstops/)
 
 [get_stop](https://developer.cumtd.com/documentation/v2.2/method/getstop/)
 
 [get_stops](https://developer.cumtd.com/documentation/v2.2/method/getstops/)
 
-[get_stops_by_lat_lon)(https://developer.cumtd.com/documentation/v2.2/method/getstopsbylatlon/)
+[get_stops_by_lat_lon](https://developer.cumtd.com/documentation/v2.2/method/getstopsbylatlon/)
 
 [get_stops_by_search](https://developer.cumtd.com/documentation/v2.2/method/getstopsbysearch/)
 
