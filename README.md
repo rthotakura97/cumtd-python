@@ -42,56 +42,134 @@ Now you can make calls using ```api``` to retrieve the necessary data.
 ## Methods
 
 [get_calendar_dates_by_date](https://developer.cumtd.com/documentation/v2.2/method/getcalendardatesbydate/)
+```
+api.get_calendar_dates_by_date('2017-05-06')
+```
 
 [get_calendar_dates_by_service](https://developer.cumtd.com/documentation/v2.2/method/getcalendardatesbyservice/)
+```
+api.get_calendar_dates_by_service("1N SHOW")
+```
 
 [get_departures_by_stop](https://developer.cumtd.com/documentation/v2.2/method/getdeparturesbystop/)
+```
+api.get_departures_by_stop("it")
+```
 
 [get_reroutes](https://developer.cumtd.com/documentation/v2.2/method/getreroutes/)
+```
+api.get_reroutes()
+```
 
 [get_reroutes_by_route](https://developer.cumtd.com/documentation/v2.2/method/getreroutesbyroute/)
+```
+api.get_reroutes_by_route("green")
+```
 
 [get_route](https://developer.cumtd.com/documentation/v2.2/method/getroute/)
+```
+api.get_route("teal")
+```
 
 [get_routes](https://developer.cumtd.com/documentation/v2.2/method/getroutes/)
+```
+api.get_routes()
+```
 
 [get_routes_by_stop](https://developer.cumtd.com/documentation/v2.2/method/getroutesbystop/)
+```
+api.get_routes_by_stop("it")
+```
 
 [get_shape](https://developer.cumtd.com/documentation/v2.2/method/getshape/)
+```
+api.get_shape("7E NO EDGE")
+```
 
 [get_shape_between_stops](https://developer.cumtd.com/documentation/v2.2/method/getshapebetweenstops/)
+```
+api.get_shape_between_stops("IT:1","WRTHLY:4","7E NO EDGE")
+```
 
 [get_stop](https://developer.cumtd.com/documentation/v2.2/method/getstop/)
+```
+api.get_stop("it")
+```
 
 [get_stops](https://developer.cumtd.com/documentation/v2.2/method/getstops/)
+```
+api.get_stops()
+```
 
 [get_stops_by_lat_lon](https://developer.cumtd.com/documentation/v2.2/method/getstopsbylatlon/)
+```
+api.get_stops_by_lat_lon("40.1133", "-88.226")
+```
 
 [get_stops_by_search](https://developer.cumtd.com/documentation/v2.2/method/getstopsbysearch/)
+```
+api.get_stops_by_search("wright")
+```
 
 [get_stop_times_by_trip](https://developer.cumtd.com/documentation/v2.2/method/getstoptimesbytrip/)
+```
+api.get_stop_times_by_trip("[@14.0.51617008@][3][1275939436250]/12__O1")
+```
 
 [get_stop_times_by_stop](https://developer.cumtd.com/documentation/v2.2/method/getstoptimesbystop/)
+```
+api.get_stop_times_by_stop("it")
+```
 
 [get_planned_trips_by_lat_lon](https://developer.cumtd.com/documentation/v2.2/method/getplannedtripsbylatlon/)
+```
+api.get_planned_trips_by_lat_lon("40.12233", "-88.29619", "40.11626", "88.25783")
+```
 
 [get_planned_trips_by_stops](https://developer.cumtd.com/documentation/v2.2/method/getplannedtripsbystops/)
+```
+api.get_planned_trips_by_stops("unipspct", "dncncltn")
+```
 
 [get_trip](https://developer.cumtd.com/documentation/v2.2/method/gettrip/)
+```
+api.get_trip("[@14.0.51617008@][3][1275939436250]/12__O1")
+```
 
 [get_trips_by_block](https://developer.cumtd.com/documentation/v2.2/method/gettripsbyblock)
+```
+api.get_trips_by_block("O3")
+```
 
 [get_trips_by_route](https://developer.cumtd.com/documentation/v2.2/method/gettripsbyroute)
+```
+api.get_trips_by_route("yellow")
+```
 
 [get_vehicle](https://developer.cumtd.com/documentation/v2.2/method/getvehicle)
+```
+api.get_vehicle("1352")
+```
 
 [get_vehicles](https://developer.cumtd.com/documentation/v2.2/method/getvehicles)
+```
+api.get_vehicles()
+```
 
 [get_vehicles_by_route](https://developer.cumtd.com/documentation/v2.2/method/getvehiclesbyroute)
+```
+api.get_vehicles_by_route("teal)
+```
 
 [get_news](https://developer.cumtd.com/documentation/v2.2/method/getnews)
+```
+api.get_news()
+```
 
 [get_api_usage](https://developer.cumtd.com/documentation/v2.2/method/getapiusage)
+```
+api.get_api_usage()
+```
 
 
 
