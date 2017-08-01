@@ -11,7 +11,7 @@ setup(
     author_email='rthotakura97@gmail.com',
     description='An unnoficial Python client for the CUMTD REST API. '
     classifiers=[
-     'Development Status :: 4 - Beta',
+     'Development Status :: 5 - Production/Stable',
      'Intended Audience :: Developers',
      'Topic :: Software Development :: Libraries :: Python Modules',
      'License :: OSI Approved :: MIT License',
