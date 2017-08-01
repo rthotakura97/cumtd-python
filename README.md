@@ -17,7 +17,7 @@ git clone https://github.com/rthotakura97/cumtd-python.git
 
 2) In your project, add ```import cumtd```
 
-##Usage
+## Usage
 
 To use the CUMTD API, you need to first acquire an instant API key at https://developer.cumtd.com/
 
