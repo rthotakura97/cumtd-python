@@ -1,6 +1,6 @@
 import cumtd
 
-client = cumtd.ApiClient()
+client = cumtd.ApiClient(<api-key>)
 
 a = client.get_calendar_dates_by_date('2017-05-06')
 assert type(a) is dict
