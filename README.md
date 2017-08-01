@@ -41,6 +41,7 @@ Now you can make calls using ```api``` to retrieve the necessary data.
 
 ## Methods
 
+### Calendar 
  * [get_calendar_dates_by_date](https://developer.cumtd.com/documentation/v2.2/method/getcalendardatesbydate/)
 ```
 api.get_calendar_dates_by_date('2017-05-06')
@@ -51,11 +52,13 @@ api.get_calendar_dates_by_date('2017-05-06')
 api.get_calendar_dates_by_service("1N SHOW")
 ```
 
+### Departures
 * [get_departures_by_stop](https://developer.cumtd.com/documentation/v2.2/method/getdeparturesbystop/)
 ```
 api.get_departures_by_stop("it")
 ```
 
+### Reroutes
 * [get_reroutes](https://developer.cumtd.com/documentation/v2.2/method/getreroutes/)
 ```
 api.get_reroutes()
@@ -66,6 +69,7 @@ api.get_reroutes()
 api.get_reroutes_by_route("green")
 ```
 
+### Routes
 * [get_route](https://developer.cumtd.com/documentation/v2.2/method/getroute/)
 ```
 api.get_route("teal")
@@ -81,6 +85,7 @@ api.get_routes()
 api.get_routes_by_stop("it")
 ```
 
+### Shapes
 * [get_shape](https://developer.cumtd.com/documentation/v2.2/method/getshape/)
 ```
 api.get_shape("7E NO EDGE")
@@ -91,6 +96,7 @@ api.get_shape("7E NO EDGE")
 api.get_shape_between_stops("IT:1","WRTHLY:4","7E NO EDGE")
 ```
 
+### Stops
 * [get_stop](https://developer.cumtd.com/documentation/v2.2/method/getstop/)
 ```
 api.get_stop("it")
@@ -111,6 +117,7 @@ api.get_stops_by_lat_lon("40.1133", "-88.226")
 api.get_stops_by_search("wright")
 ```
 
+### Stop Times
 * [get_stop_times_by_trip](https://developer.cumtd.com/documentation/v2.2/method/getstoptimesbytrip/)
 ```
 api.get_stop_times_by_trip("[@14.0.51617008@][3][1275939436250]/12__O1")
@@ -121,6 +128,7 @@ api.get_stop_times_by_trip("[@14.0.51617008@][3][1275939436250]/12__O1")
 api.get_stop_times_by_stop("it")
 ```
 
+### Planned Trips
 * [get_planned_trips_by_lat_lon](https://developer.cumtd.com/documentation/v2.2/method/getplannedtripsbylatlon/)
 ```
 api.get_planned_trips_by_lat_lon("40.12233", "-88.29619", "40.11626", "88.25783")
@@ -131,6 +139,7 @@ api.get_planned_trips_by_lat_lon("40.12233", "-88.29619", "40.11626", "88.25783"
 api.get_planned_trips_by_stops("unipspct", "dncncltn")
 ```
 
+### Trips
 * [get_trip](https://developer.cumtd.com/documentation/v2.2/method/gettrip/)
 ```
 api.get_trip("[@14.0.51617008@][3][1275939436250]/12__O1")
@@ -146,6 +155,7 @@ api.get_trips_by_block("O3")
 api.get_trips_by_route("yellow")
 ```
 
+### Vehicles
 * [get_vehicle](https://developer.cumtd.com/documentation/v2.2/method/getvehicle)
 ```
 api.get_vehicle("1352")
@@ -161,6 +171,7 @@ api.get_vehicles()
 api.get_vehicles_by_route("teal)
 ```
 
+### Other
 * [get_news](https://developer.cumtd.com/documentation/v2.2/method/getnews)
 ```
 api.get_news()
