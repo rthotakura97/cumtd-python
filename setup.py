@@ -1,5 +1,6 @@
 from distutils.core import setup
 
+
 setup(
     name='cumtd-python',
     version='1.0.0',
@@ -9,4 +10,13 @@ setup(
     author='Rohit Thotakura',
     author_email='rthotakura97@gmail.com',
     description='An unnoficial Python client for the CUMTD REST API. '
+    classifiers=[
+     'Development Status :: 4 - Beta',
+     'Intended Audience :: Developers',
+     'Topic :: Software Development :: Libraries :: Python Modules',
+     'License :: OSI Approved :: MIT License',
+     'Programming Language :: Python :: 2',
+     'Programming Language :: Python :: 3',   
+    ]
+    keywords=['cumtd','api','champaign','urbana','transit']
 )
