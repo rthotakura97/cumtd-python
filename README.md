@@ -17,5 +17,17 @@ git clone https://github.com/rthotakura97/cumtd-python.git
 
 2) In your project, add ```import cumtd```
 
+##Usage
+
+To use the CUMTD API, you need to first acquire an instant API key at https://developer.cumtd.com/
+
+With this API Key, declare an ```api``` object:
+```
+api = cumtd.ApiClient(<api-key>)
+```
+
+Now you can make calls using ```api``` to retrieve the necessary data.
+
+
 
 
