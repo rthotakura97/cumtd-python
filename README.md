@@ -16,15 +16,11 @@ An unofficial Python client for the [CUMTD REST API](https://developer.cumtd.com
 
 ## Getting Started
 
-Package will be available on ```pip``` soon.
+Now available on PyPi!
 
-* Requirements
-  * Python "json" library
-  * Python "requests" library
-
-Go to your project directory, then clone this repo:
+Simply install the package with:
 ```
-git clone https://github.com/rthotakura97/cumtd-python.git
+pip install cumtd-python
 ```
 
 ## Usage
