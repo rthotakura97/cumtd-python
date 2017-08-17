@@ -10,7 +10,7 @@ An unofficial Python client for the [CUMTD REST API](https://developer.cumtd.com
  
 ## Development
  * Current Version: **1.0.0**
- * This package is tested with private and public tests, but may still have some bugs.
+ * This package is tested, but may still have some bugs.
  * Implementation of methods with "optional" parameters coming soon (look at [CUMTD API](https://developer.cumtd.com/) for details).
  * If you encounter any bugs or problems, submit an "Issue" to this repository and I will fix it as soon as possible.
  * Any open-source contribution is appreciated!
