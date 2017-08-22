@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="81d3f20b-d8a0-458a-a3c2-be4b31328f7c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -371,6 +370,14 @@
       <option name="presentableId" value="Default" />
       <updated>1501546446272</updated>
     </task>
+    <task id="LOCAL-00001" summary="updated setup.py w/ keywords">
+      <created>1503434971115</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1503434971115</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -422,6 +429,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated setup.py w/ keywords" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated setup.py w/ keywords" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
